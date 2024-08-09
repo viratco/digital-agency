@@ -6,23 +6,28 @@
 body {
     font-family: sans-serif;
 }
+
 #nav-bar {
-   position: sticky;
-   top: 0;
-   z-index: 10;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
+
 .navbar {
     background-image: linear-gradient(to right, #090b22, #5f1782);
 
 }
+
 img {
     height: 73px;
     padding-left: 30px;
 }
+
 .navbar-nav li {
     padding-right: 20px;
     font-size: 20px;
 }
+
 /* banner */
 
 #banner {
@@ -46,16 +51,23 @@ img {
 .ply-btn {
     height: 118px;
     margin: 30px;
+    transition: 0.4s;
 }
+.ply-btn:hover {
+    transform: translateY(-10px);
+}
+
 #banner a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: 300px;
 }
+
 .bottom-img {
     width: 100%;
     padding: 0px;
+    height: 130px;
 }
 
 /* service */
@@ -64,31 +76,35 @@ img {
     padding-top: 100px;
 
 }
+
 .service-img {
     height: 200px;
-    
+
+
 }
+
 #serv1-text {
     text-align: center;
     padding-top: 30px;
     font-size: 21px;
     font-weight: 600;
 }
- #heading {
+
+#heading {
     text-align: center;
     padding-bottom: 40px;
     font-size: 40px;
     font-weight: 600;
- }
+}
 
- #service .btn-primary {
+#service .btn-primary {
     box-shadow: none;
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, #090b22, #5f1782);
     margin: 20px;
- }
+}
 
 /* about us  */
 
@@ -96,13 +112,90 @@ img {
     padding-top: 125px;
     padding-bottom: 80px;
 }
+
 #about-us p {
     font-size: 40px;
     padding-top: 72px;
 }
+
 #about-us li {
     padding-bottom: 13px;
 }
+
 #about-us img {
     padding-top: 55px;
 }
+
+/* testimoanial */
+
+#testimonial img {
+    height: 150px;
+    padding-left: 0px;
+    border-radius: 50%;
+    
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* social media */
+.social-text {
+    padding-top: 146px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+
+#social-media a img {
+    padding-left: 2px;
+    transition: 0.5s;
+}
+
+#social-media a:hover img {
+    transform: translateY(-10px);
+}
+
+/* footer section  */
+
+#footer {
+    background-image: linear-gradient(to right, #090b22, #5f1782);
+    ;
+}
+
+.img-top {
+    width: 100%;
+    padding: 0px;
+}
+
+.top-img {
+    width: 100%;
+    padding: 0px;
+    height: 130px;
+}
+.footer-text {
+    color: white;
+}
+.foot-logo {
+    margin-top: 67px;
+}
+ 
+#footer h3 {
+    color: white;
+    margin-left: 71px;
+    margin-top: 167px;
+}
+#footer p {
+    padding-top: 67px;
+    color: white;
+   
+
+}
+
+
+
