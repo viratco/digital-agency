@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../digital"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "digital-agency"
+	}
+}
